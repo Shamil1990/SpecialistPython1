@@ -31,3 +31,8 @@
 # 20 199.8 Rub.
 
 # TODO: your code here
+price = float(input("Введите количетсво рублей: "))
+
+for i in range(1, 21):
+    i = price * i
+    print(i, "Rub.")
