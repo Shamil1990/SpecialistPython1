@@ -32,8 +32,11 @@ n = 5
 
 ### Решение задачи
 
-```python
-# TODO: you code here...
+step = int(input("Введите количество ступеней: "))  # количество ступей
+x = 0
+while step > x:
+    x += 1
+    print("*" * x)
 ```
 
 ---
